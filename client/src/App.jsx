@@ -7,7 +7,7 @@ import PetugasDashboard from './pages/PetugasDashboard';
 import AdminDashboard from './pages/AdminDashboard';
 import { LogOut } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://websimpubmanpro-production.up.railway.app/api'
 
 export default function App() {
   const [page, setPage] = useState('landing'); // landing, login, register, dashboard
